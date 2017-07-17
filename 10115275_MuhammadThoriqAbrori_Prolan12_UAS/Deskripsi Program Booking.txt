@@ -1,0 +1,47 @@
+Dokumentasi program Booking lapang Futsal
+
+NIM   : 10115275
+Nama  : Muhammad Thoriq Abrori
+Kelas : Prolan - 12
+
++************************************************************************************************************************************************************************************************************************************+
+
+1. Deskripsi Program : Program ini menggambarkan tentang keterangan untuk membooking sebuah lapangan Futsal yang digunakan oleh karyawan atau pegawai untuk menjadi catatan singkat dalam transaksi booking sebuah lapangan futsal.
+
+dalam program ini berisi :
+
+- keterangan penjaga dan lapang
+  dalam bagian ini pengguna akan diberitahu tentang detail dari penjaga dan lapang yang dijaga 
+- keteranagan biaya lapang
+  dalam pilihan ini akan menuliskan catatan harga lapangan dari detail data yang telah di masukan dalam source code program 
+- keterangan detail lapangan
+  bagian ini memberi informasi tentang detail dari lapang yang akan digunakan 
+- jadwal booking yang berisi catatan booking dalam seminggu
+  pada jadwal terdapat catatan hari yang dapat dilihat untuk informasi tentang kosong atau tidaknya lapangan futsal 
+- dan catatan dari tim yang membooking yang bisa diubah oleh pengguna
+  bagian ini memunculkan informasi tentang catan biaya tim pebooking  
+
+2. Cara menggunakan Program :
+
+- Program ini diperuntukan pada penjaga lapangan futsal
+- pada program ini terdapat 5 menu pilihan, dan pengguna tinggal memasukan nilai 1-5 (jika pilihan 0 atau lebih dari 5 maka salah) 
+- pada pilihan 1 karyawan lapangan putsal (pengguna) akan mendapatkan info tentang detail singkat dari penjaga, dan detail singkat dari lapangan yang dijaga, pengguna tinggal memilih angka 1 pada menu pilihan
+- pada pilihan 2 pengguna akan diberitahu tentang biaya lapang dan administrasi lapang, pengguna tinggal memilih angka 2 pada menu pilihan
+- pada pilihan 3 akan menuliskan detail pendek dari lapang yang akan digunakan, untuk menggunakan tinggal input angka 3 paada menu pilihan
+- pada pilihan 4 menampilkan hari yang berisi tentang jadwal booking, user tinggal memasukan angka 4 pada menu pilihan dan kemudian memilih angka 1-7 pad menu pilihan hari (jika angka 0 atau lebih dari 7 maka salah)
+- pada pilihan 5 menampilkan catatan biaya booking dari tim yang telah melakukuan booking secara permanent (booking rutin), pengguna bisa memilih angka 5 pada menu pilihan untuk mengakses menu ini
+- jika pilihan 0 atau lebih dari 5 maka pilihan tidak ada atau salah
+
+3. Keterkaitan dengan OOP
+
+- Pada bagian kelas lapang melakukan proses Inheritance dari kelas Booking 
+- Kelas Abstract di tunjukan pada kelas Booking .
+- Abstract Method ditunjukan pada method DPlapang, lunas, belumlunas, hutanglapang, dendalapang di kelas Interface sewa.
+- Interface di tunjukan pada Interfacesewa yang di implementasikan pada kelas Raaft, Saba dan DISC.
+- Generic class di tunjukan pada kelas GenericBoking.
+- Generic Method di tunjukan pada method di kelas GenericBoking.
+- Pada program ini terdapat dua package , yaitu Booking yang di dalamnya terdapat kelas Booking, KeteranganLapang, MainBooking, Lapang
+  dan package Pebooking yang didalamnya terdapat kelas DISC, Raaft, Saba, GenericBoking dan interfacesewa.
+- Overriding di tunjukan pada kelas Lapang, DISC, Raaft dan Saba. yaitu di atas methodnya memiliki ciri
+  @Override
+- encapsulation , getter dan setter di tujukan pada kelas GenericBoking, Lapang dan KeteranganLapang, dan Mainbooking.  
